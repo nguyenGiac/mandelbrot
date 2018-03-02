@@ -95,8 +95,8 @@ void zoomIn(){
        incr *= .98749999; // we shrink the incrementer so that the movement isn't jumpy as we zoom
     }
   } else {
-   incr *= .98749999; // we shrink the incrementer so that the movement isn't jumpy as we zoom
+   incr *= .98749999;
   }
-  incr *= .98749999; // we shrink the incrementer so that the movement isn't jumpy as we zoom
+  incr *= .98749999;
 
 }
