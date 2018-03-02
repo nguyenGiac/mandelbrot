@@ -74,7 +74,7 @@ void mandelbrot(){
       }
       
       // We color each pixel based on how long it takes to get to infinity
-      // If we never got there, let's pick the color black
+      // If we never got there, color it white
       if (n == maxiterations) pixels[i+j*width] = color(255);
       else pixels[i+j*width] = color((n*12)%255);
       x += dx;
